@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0,5s ease-in-out;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow: auto;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    scroll-snap-align: start;
+}
+.one{ background-color: blue;}
+.two{background-color: rgb(165, 42, 144);}
+.three{background-color: green;}
+.four{background-color: red;}
+.five{background-color: orange;}
